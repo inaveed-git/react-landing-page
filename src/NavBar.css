@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: bold;
+}
+
+.navbar {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0.5rem 1rem;
+
+  position: absolute;
+  top: 5;
+
+  z-index: 10;
+}
+
+.list ul {
+  display: flex;
+}
+
+.list ul li {
+  margin: 0.8rem;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+}
+
+.login-btn {
+  height: 2rem;
+  background-color: #b92731;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 1rem;
+  width: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
